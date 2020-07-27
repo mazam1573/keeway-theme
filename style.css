@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0, 0.1)),url(images/bg1.jpg);
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    width: 20%;
+    display: inline-block;
+}
+.logo img{
+    margin-left: 8%;
+    margin-top: 2%;
+
+}
+.navbar{
+    width: 80%;
+    float: right;
+}
+.navbar ul{
+    list-style: none;
+    margin-left: 450px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline;
+    padding: 1% 2%;
+    margin: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar ul li:hover{
+    background-color: burlywood;
+}
+.navbar ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:nth-child(1) a{
+    color: blue;
+    text-decoration: underline;
+}
+.header h1{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.header p{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.header button{
+    color: white;
+    align-items: center;
+    margin-top: 60px;
+    width: 120px;
+    height: 30px;
+    background-color: turquoise;
+    border-radius: 20px;
+    border: none;
+}
+.header button:hover{
+    background: none;
+    border: 1px solid white;
+}
+.features{
+    width: 100%;
+    height: 55vh;
+}
+.features h1{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.featur{
+    width: 100%;
+    margin: auto;
+}
+span{
+    color: cyan;
+}
+.feature-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: cyan;
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.feature-box h4{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.skills{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(88, 88, 88, 0.1);
+    padding-top: 1px;
+}
+.skills h1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.do{
+    width: 50%;
+    float: left;
+}
+.do h2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.do p{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.do ul{
+    margin-left: 90px;
+    color: cyan;
+    font-size: 18px;
+}
+.range{
+    width: 45%;
+    float: right;
+    margin-left: 5%;
+}
+.design{
+    border-bottom: 5px solid cyan;
+    width: 90%;
+    display: block;
+    line-height: 30px;
+}   
+p.left{
+    float: left;
+    margin-top: -30px;
+}
+p.right{
+    float: right;
+    margin-top: -30px;
+}
+.development{
+    border-bottom: 5px solid cyan;
+    width: 80%;
+    line-height: 30px;
+    display: block;
+    margin-top: 60px;
+}
+.marketing{
+    border-bottom: 5px solid cyan;
+    width: 75%;
+    line-height: 30px;
+    display: block;
+    margin-top: 60px;
+}
+.photography{
+    border-bottom: 5px solid cyan;
+    width: 55%;
+    line-height: 30px;
+    display: block;
+    margin-top: 60px;
+}
+.services{
+    width: 100%;
+    height: 60vh;
+}
+.services h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.service{
+    width: 25%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.service h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.work{
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(88, 88, 88, 0.1);
+    padding-top: 1px;
+    text-align: center;
+}
+.work h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.work-na{
+    width: 40%;
+    margin: auto;
+    margin-left: 530px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.work-na p{
+    float: left;
+    border: 1px solid black;
+    padding: 3px 15px;
+}
+.work-show{
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+}
+.clear{
+    clear: both;
+}
+.work-show img{
+    width: 30%;
+    height: 30%;
+    margin-left: 10px;
+}
+.expert{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    padding-top: 1px;
+}
+.expert h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.showcase{
+    width: 100%;
+}
+.showcase img{
+    width: 25%;
+    margin-left: 50px;
+}
+.pricing{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(88, 88, 88, 0.1);
+    text-align: center;
+    padding-top: 1px;
+}
+.pricing h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.price{
+    width: 100%;
+    margin-top: 70px;
+}
+.basic{
+    width: 25%;
+    height: 350px;
+    margin-left: 120px;
+    background-color: cyan;
+    float: left;
+    box-sizing: border-box;
+}
+.basic h2{
+    margin-top: 10px;
+}
+.basic h1{
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+.basic div{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 2px;
+    padding-top: 10px;
+}
+.standard{
+    width: 25%;
+    height: 350px;
+    margin-left: 30px;
+    background-color: blue;
+    float: left;
+    box-sizing: border-box;
+}
+.standard h2{
+    margin-top: 10px;
+}
+.standard h1{
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+.standard div{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 2px;
+    padding-top: 10px;
+}
+.premium{
+    width: 25%;
+    height: 350px;
+    margin-left: 30px;
+    background-color: cyan;
+    float: left;
+    box-sizing: border-box;
+}
+.premium h2{
+    margin-top: 10px;
+}
+.premium h1{
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+.premium div{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 2px;
+    padding-top: 10px;
+}
+.blog{
+    width: 100%;
+    height: 75vh;
+    padding-top: 1px;
+}
+.blog h1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.blog-post{
+    width: 100%;
+}
+.post{
+    width: 30%;
+    margin-left: 40px;
+    float: left;
+}
+.post img{
+    width: 100%;
+    height: 180px;
+    float: center;
+}
+.post h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.post p{
+    margin-left: 10px;
+}
+.post button{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(26, 25, 25, 0.671);
+    border: none;
+    border-radius: 20px;
+}
+.post button:hover{
+    background-color: transparent;
+    border: solid black;
+}
+.contact{
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.1);
+    padding-top: 1px;
+}
+.contact h1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.form{
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+}
+.form h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form input{
+    float: left;
+}
+.form button{
+    width: 140px;
+    height: 40px;
+    margin-top: 50px;
+    background-color: cyan;
+    border: none;
+    border-radius: 20px;
+}
+.form button:hover{
+    background-color: transparent;
+    border: cyan 3px solid;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
